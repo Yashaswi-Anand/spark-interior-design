@@ -4,7 +4,7 @@ import ImageSlider from '../../widgets/ImageSlider'
 function Home() {
   return (
     <div>
-        Hey ... 
+        Spark interior
      <ImageSlider/>   
     </div>
   )
