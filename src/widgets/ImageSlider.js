@@ -7,7 +7,7 @@ import images_3 from '../components/assets/images/sliderc.jpeg';
 const ImageSlider = () => {
     const images = [{
         image_path: images_1,
-        message: 'Imagine Design Reality'
+        message: '\u2022 Imagine   \u2022 Design    \u2022 Reality'
     }, {
         image_path: images_2,
         message: 'Design With Effective Cost'

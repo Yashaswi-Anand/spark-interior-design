@@ -16,6 +16,9 @@
 .m-a-5 { margin: 5px;}
 .m-a-10 { margin: 10px;}
 
+/* pointer */
+.cursor { cursor: pointer;}
+
 .image-message-box {
   position: absolute;
   bottom: 50px;
@@ -23,14 +26,6 @@
   transform: translateX(-50%);
   color: white;
 }
-
-.image-message {
-  font-size: x-large;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: rgba(0, 0, 0, 0.071);
-  border-radius: 5px;
-  padding: 10px 100px;
-} 
 
 .button-on-image {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -40,6 +35,7 @@
   color: gray;
   border: tan solid 2px;
   font-size: medium;
+  cursor: pointer;
 }
 
 
@@ -62,7 +58,7 @@
 
 .image-message-box {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
   padding: 10px;
@@ -70,18 +66,12 @@
 }
 
 .image-message {
-  color: white;
-  margin-bottom: 5px;
-}
-
-.button-on-image {
-  color: white;
-  background-color: #007bff;
-  border: none;
-  padding: 8px 16px;
+  font-size: medium;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.071);
   border-radius: 5px;
-  cursor: pointer;
-}
+  padding: 10px 100px;
+} 
 
 /* Responsive styles */
 @media (max-width: 768px) {
