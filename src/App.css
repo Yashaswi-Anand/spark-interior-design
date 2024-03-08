@@ -19,7 +19,8 @@
 /* Margin */
 .m-a-5 { margin: 5px;}
 .m-a-10 { margin: 10px;}
-
+.m-l-10 {margin-left: 10px;}
+.m-l-20 {margin-left: 20px;}
 /* pointer */
 .cursor { cursor: pointer;}
 
@@ -85,3 +86,73 @@
   }
   .flex-direction { flex-direction: column;}
 }
+
+/* image list view  */
+.image-list-box {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* hides scrollbar */
+  &::-webkit-scrollbar {
+    display: none; /* for Safari and Chrome */
+  }
+}
+
+.image-item {
+  background: #FF61F6;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 0 4px;
+  white-space: nowrap;
+}
+
+.button {
+  border: 0;
+  color: #777;
+  font-size: 24px;
+  margin: 0 8px;
+}
+
+.image-card {
+  position: relative;
+  margin: 20px 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-card img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.image-card .image-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+}
+
+.image-card:hover {
+  transform: scale(1.1);
+}
+
