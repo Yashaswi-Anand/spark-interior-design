@@ -24,7 +24,7 @@ const ImageSlider = () => {
                 autoPlay
                 infiniteLoop
                 showThumbs={false}
-                interval={2500}
+                interval={3000}
                 transitionTime={500}
             >
                 {images.map((image, index) => (

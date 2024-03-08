@@ -8,9 +8,13 @@
 .justify-start { justify-content: start;}
 .justify-evenly { justify-content: space-evenly;}
 .justify-around { justify-content: space-around;}
+.flex-direction { flex-direction: row;}
+.g-3 {gap: 3;}
+.g-5 {gap: 5;}
 
 /* Padding */
 .p-a-5 { padding: 5px;}
+.p-a-10 { padding: 10px;}
 
 /* Margin */
 .m-a-5 { margin: 5px;}
@@ -79,4 +83,5 @@
       font-size: 14px;
       padding: 8px;
   }
+  .flex-direction { flex-direction: column;}
 }
