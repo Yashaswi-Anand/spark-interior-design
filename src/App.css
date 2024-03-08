@@ -16,6 +16,9 @@
 .m-a-5 { margin: 5px;}
 .m-a-10 { margin: 10px;}
 
+/* pointer */
+.cursor { cursor: pointer;}
+
 .image-message-box {
   position: absolute;
   bottom: 50px;
@@ -23,14 +26,6 @@
   transform: translateX(-50%);
   color: white;
 }
-
-.image-message {
-  font-size: x-large;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: rgba(0, 0, 0, 0.071);
-  border-radius: 5px;
-  padding: 10px 100px;
-} 
 
 .button-on-image {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -40,4 +35,48 @@
   color: gray;
   border: tan solid 2px;
   font-size: medium;
+  cursor: pointer;
+}
+
+
+/* imageSlider.css */
+.slider-container {
+  width: 100%;
+  margin: auto;
+}
+
+.slider-item {
+  position: relative;
+  height: auto;
+  text-align: center;
+}
+
+.slider-image {
+  width: 100%;
+  height: 89vh;
+}
+
+.image-message-box {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.image-message {
+  font-size: medium;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.071);
+  border-radius: 5px;
+  padding: 10px 100px;
+} 
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .image-message-box {
+      font-size: 14px;
+      padding: 8px;
+  }
 }
