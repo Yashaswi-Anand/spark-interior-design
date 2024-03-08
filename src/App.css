@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
+.APP-COLOR { color:antiquewhite;}
+.APP-BACKGROUND { background-color: burlywood;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Display */
+.flex { display: flex;}
+.justify-center { justify-content: center;}
+.justify-between { justify-content: space-between;}
+.justify-start { justify-content: start;}
+.justify-evenly { justify-content: space-evenly;}
+.justify-around { justify-content: space-around;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Padding */
+.p-a-5 { padding: 5px;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Margin */
+.m-a-5 { margin: 5px;}
+.m-a-10 { margin: 10px;}
+
+.image-message-box {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.image-message {
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgba(0, 0, 0, 0.071);
+  border-radius: 5px;
+  padding: 10px 100px;
+} 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-on-image {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  padding: 10px 70px;
+  color: gray;
+  border: tan solid 2px;
+  font-size: medium;
 }
