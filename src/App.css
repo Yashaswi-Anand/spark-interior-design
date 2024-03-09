@@ -85,6 +85,7 @@
       padding: 8px;
   }
   .flex-direction { flex-direction: column;}
+  .slider-image { height: 60vh; }
 }
 
 /* image list view  */
