@@ -14,7 +14,7 @@ function RealWorkDocument() {
   },
   {
     image_path: images_3,
-    title: 'Ceiling 3',
+    title: 'Ceiling 6',
   }];
 
   return (
